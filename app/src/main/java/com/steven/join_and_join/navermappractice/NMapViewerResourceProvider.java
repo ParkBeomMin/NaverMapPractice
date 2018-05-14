@@ -18,7 +18,7 @@ import com.nhn.android.maps.NMapOverlayItem;
 import com.nhn.android.maps.overlay.NMapPOIitem;
 import com.nhn.android.mapviewer.overlay.NMapResourceProvider;
 
-class NMapViewerResourceProvider extends NMapResourceProvider{
+class NMapViewerResourceProvider extends NMapResourceProvider{ // 지도 위의 오버레이 객체 드로잉에 필요한 리소스 데이터를 제공하기 위한 클래스
     private static final String LOG_TAG = "NMapViewerResourceProvider";
     private static final boolean DEBUG = false;
 
